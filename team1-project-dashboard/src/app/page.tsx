@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
-import Dashbo from "@/components/dashboard";
+import Inco from "@/components/income";
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
       <Navbar />
       <div className="flex">
         <Sidebar />
-        <Dashbo />
+        <Inco />
       </div>
     </main>
   );
